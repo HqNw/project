@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
-public class IfElseExample {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int num = scanner.nextInt();
+class IfElseExample {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Enter a number: ");
+    int num = scanner.nextInt();
 
-        if (num > 0) {
-            System.out.println("The number is positive.");
-        } else {
-            System.out.println("The number is not positive.");
-        }
+    if (num > 0) {
+      System.out.println("The number is positive.");
+    } else {
+      System.out.println("The number is not positive.");
     }
+  }
 }

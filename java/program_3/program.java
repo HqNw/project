@@ -1,4 +1,4 @@
-public class VariableExample {
+class VariableExample {
     public static void main(String[] args) {
         int num = 10;
         double dec = 3.14;
