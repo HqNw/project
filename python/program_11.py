@@ -1,7 +1,7 @@
 
-def add(x, y):
-    return x + y
+def sub(x, y):
+    return x - y
 
 
-result = add(5, 3)
+result = sub(5, 3)
 print(result)

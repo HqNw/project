@@ -18,5 +18,5 @@ class Student(Person):
         print("I am a student with ID " + self.student_id)
 
 
-s = Student("John", 30, "123456")
+s = Student("John", 30, "4221141")
 s.greet()
